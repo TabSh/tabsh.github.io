@@ -1,117 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>我们结婚啦！</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <!-- Add your keywords and description here for SEO. -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <head>
+        <meta charset="UTF-8">
+        <title>我们的故事</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!-- Add your keywords and description here for SEO. -->
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
-    <!-- Uncomment this if you need apple touch icon. -->
-    <!--
-    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
-    -->
+        <!-- Uncomment this if you need apple touch icon. -->
+        <!--
+             <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+             <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+             <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+             <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+           -->
 
-    <!-- Don't delete this. It's needed for development workflow. -->
-    <link rel="stylesheet" href="stylesheets/bundle.min.css">
-</head>
+        <!-- Don't delete this. It's needed for development workflow. -->
+        <link rel="stylesheet" href="stylesheets/bundle.css">
+    </head>
 
-<body>
-
-<!-- 背景音乐 -->
-<div class="loading-overlay">
-    <img src="images/loading.svg">
-</div>
-
-<!-- swiper container -->
-<div class="swiper-container">
-    <!-- swiper container -->
-    <div class="swiper-wrapper">
-
-   <div class="swiper-slide slide-1">
-
-            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s"></div>
-
-            <p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">
-                <span class="item-text-span">这一时刻</span>
-                <br/>
-                <span class="item-text-span">时空冻结</span>
-                <br/>
-                <span class="item-text-span">你我</span>
-                <br/>
-                <span class="item-text-span">双眼凝视</span>
-            </p>
-
+    <body>
+        <!-- 微信分享缩略图 -->
+        <div class="wx-share-logo" style="display:none;">
+            <img alt="" src="images/love1.jpg"/>
         </div>
 
-        <div class="swiper-slide slide-2">
-            <div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s"></p>
+        <!-- 加载动画 -->
+        <div class="loading-overlay">
+            <img src="images/loading.svg">
         </div>
 
-        <div class="swiper-slide slide-3">
-            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">真是天造地设呀！</p>
+        <!-- swiper container -->
+        <div class="swiper-container">
+            <!-- swiper wrapper -->
 
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide slide-1">
+                    <div class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">
+                        <ul class="list">
+                            <li class="list-item role me">跟妹子同桌耶！中间还有个人（您受苦了！）</li>
+                            <li class="list-item role her">......</li>
+                            <li class="list-item role me">名字挺好听。</li>
+                            <li class="list-item role her">......</li>
+                            <li class="list-item role me">妹子不喜欢说话啊！喜欢一下再说吧。</li>
+                        </ul>
+                    </div>
+
+                    <div class="item-image">
+                        <img alt="" src=""/>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-2">
+                    <div class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">
+                        <ul class="list">
+                            <li class="list-item role">我：是她，是她。</li>
+                            <li class="list-item role">她：......</li>
+                            <li class="list-item role">我：这马尾巴真有意思！</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-3">
+                    <div class="item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">
+                        <ul class="list">
+                            <li class="list-item role">我：骚动心思无法停歇，不行，我要表白—来封情书（多年后问我为啥要用铅笔）。</li>
+                            <li class="list-item role">她：我要认真读书，现在不能。</li>
+                            <li class="list-item role">我：跟我说话啦，情书没有撕掉，有戏，有戏。</li>
+                            <li class="list-item role">她：......</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-4">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：回老家复读？</li>
+                            <li class="list-item role">她：要一起来吗？</li>
+                            <li class="list-item role">我：不啦！</li>
+                            <li class="list-item role">她：好吧！我的电话：73605747851（多年后记不住更换后的电话，因为这个号码一直在我脑海里。）</li>
+                            <li class="list-item role">我：嗯！</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide-5">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：还好吗？</li>
+                            <li class="list-item role">她：嗯，挺好的。你呢？</li>
+                            <li class="list-item role">我：不是很好，有点想你</li>
+                            <li class="list-item role">她：......</li>
+                            <li class="list-item role">我：压力不要太大，下周再打给你。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-6">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：啥专业呀？</li>
+                            <li class="list-item role">她：学口腔。</li>
+                            <li class="list-item role">我：那挺好的，我们学校医学挺好，口腔不行的。</li>
+                            <li class="list-item role">她：我去遵义，读研换好学校吧！</li>
+                            <li class="list-item role">我：好的，大学可以放松点啦，大家都说普通话，不要再因为语言阻碍沟通，照顾好自己。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-7">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：喂，在干嘛呢？</li>
+                            <li class="list-item role">她：图书馆，复习了。</li>
+                            <li class="list-item role">我：你图书馆在哪个方位呀？</li>
+                            <li class="list-item role">她：你干什么？</li>
+                            <li class="list-item role">我：去找你呀！</li>
+                            <li class="list-item role">她：你来我学校啦？</li>
+                            <li class="list-item role">我：在火车站出口哩！</li>
+                            <li class="list-item role">她：等我。</li>
+                            <li class="list-item role">我：等你，反正不差这点距离。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-8">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：我今晚火车。</li>
+                            <li class="list-item role">她：嗯。</li>
+                            <li class="list-item role">我：别太累啦。</li>
+                            <li class="list-item role">她：嗯。</li>
+                            <li class="list-item role">我：记得打电话给我。</li>
+                            <li class="list-item role">她：嗯。</li>
+                            <li class="list-item role">我：做我女朋友吧。</li>
+                            <li class="list-item role">她：嗯。嗯？</li>
+                            <li class="list-item role">我：......</li>
+                            <li class="list-item role">她：......</li>
+                            <li class="list-item role">我：走了。回宿舍吧。</li>
+                            <li class="list-item role">她：你先走。</li>
+                            <li class="list-item role">我：你先回。</li>
+                            <li class="list-item role">她：那我回啦。</li>
+                            <li class="list-item role">我：回吧。早点休息。</li>
+                            <li class="list-item role">她：别耽误车啦！</li>
+                            <li class="list-item role">我：......</li>
+                            <li class="list-item role">她：......</li>
+                            <li class="list-item role">我：真走了，你回吧。</li>
+                            <li class="list-item role">她：走吧。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide-9">
+                    <div class="item-text">
+                        <ul class="list">
+                            <li class="list-item role">我：hey，Baby，我今晚去长沙哟。</li>
+                            <li class="list-item role">她：几点能到呀？</li>
+                            <li class="list-item role">我：下午7点吧！</li>
+                            <li class="list-item role"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="swiper-slide slide-4">
-           <div class="item-image animated" data-ani-name="flash" data-ani-duration="2s" data-ani-delay=".5s"></div>
-            <p class="item-text">
-                幸福，永远, 健康
-            </p>
-        </div>
+        <button class="up-arrow">
+            <i class="icon-angle-double-up"></i>
+        </button>
 
-        <div class="swiper-slide slide-5">
-            <div class="item-image animated" data-ani-name="tada" data-ani-duration="2s" data-ani-delay="0s"></div>
-            <p class="item-text">
-                长青，长情, 拥抱
-            </p>
-        </div>
+        <button class="btn-music">
+            <i class="icon-note"></i>
+        </button>
 
-        <div class="swiper-slide slide-6">
-            <div class="item-image animated" data-ani-name="swing" data-ani-duration="2s" data-ani-delay="0s" ></div>
-            <p class="item-text">
-                岁月， 纪念着我们青春
-            </p>
-        </div>
+        <audio loop>
+            <source src="audios/background.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="swiper-slide slide-7">
-            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="3s" data-ani-delay="0s"></div>
-            <p class="item-text">
-                青春，有我的陪伴， 年迈，你我相随
-            </p>
-        </div>
+        <!-- Don't delete this. It's needed for development workflow. -->
+        <script src="javascripts/bundle.js"></script>
 
-        <div class="swiper-slide slide-8">
-            <div class="item-image animated" data-ani-name="lightSpeedIn" data-ani-duration="2s" data-ani-delay="0s"></div>
-            <p class="item-text">
-                呀，老婆不要把我丢到海里喂鲨鱼啊！
-            </p>
-        </div>
-</div>
-
-<button class="up-arrow">
-    <i class="icon-angle-double-up"></i>
-</button>
-
-<button class="btn-music">
-    <i class="icon-note"></i>
-</button>
-
-<audio loop>
-    <source src="audios/background.mp3" type="audio/mpeg">
-</audio>
-
-<!-- Don't delete this. It's needed for development workflow. -->
-<script src="javascripts/bundle.min.js"></script>
-
-</body>
+    </body>
 
 </html>
