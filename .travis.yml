@@ -1,7 +1,0 @@
-before_script:
-        - node -v
-        - npm -v
-        - npm install -g gulp
-        - npm install
-script: gulp prod
-
