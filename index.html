@@ -19,15 +19,14 @@
            -->
 
         <!-- Don't delete this. It's needed for development workflow. -->
-        <link rel="stylesheet" href="stylesheets/bundle-0935a3939b.min.css">
-        <link rel="stylesheet" href="stylesheets/bundle.css">
+        <link rel="stylesheet" href="stylesheets/bundle-4be1370416.min.css">
     </head>
 
     <body>
 
         <!-- 微信分享缩略图 -->
         <div class="wx-share-logo" style="display:none;">
-            <img alt="" src="images/love13.jpg"/>
+            <img alt="" src="images/love13.jpg?imageslim"/>
         </div>
 
         <!-- 加载动画 -->
@@ -35,9 +34,14 @@
             <img src="images/loading.svg">
         </div>
 
+        <!-- 弹窗模板 -->
+        <div class="modal hide" id="pop_modal">
+            <img class="modal-image" alt="" src=""/>
+        </div>
+
+
         <!-- swiper container -->
         <div class="swiper-container">
-            <!-- swiper wrapper -->
 
             <div class="swiper-wrapper">
 
@@ -53,8 +57,8 @@
                     </div>
 
                     <div class="item-image animated" data-ani-name="fadeIn" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love1.jpg"/>
-                        <img alt="我们结婚啦!" src="../images/love3.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love1.jpg?imageslim"/>
+                        <img alt="我们结婚啦!" src="../images/love3.jpg?imageslim"/>
                     </div>
                 </div>
 
@@ -67,7 +71,7 @@
                     </div>
 
                     <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love2.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love2.jpg?imageslim"/>
                     </div>
 
                 </div>
@@ -83,7 +87,7 @@
                     </div>
 
                     <div class="item-image animated" data-ani-name="zoomIn" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love4.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love4.jpg?imageslim"/>
                     </div>
 
 
@@ -101,7 +105,7 @@
                     </div>
 
                     <div class="item-image animated" data-ani-name="slideInUp" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love6.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love6.jpg?imageslim"/>
                     </div>
 
 
@@ -120,9 +124,13 @@
 
 
                     <div class="item-image animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s" > 
-                        <img alt="我们结婚啦!" src="../images/love7.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love7.jpg?imageslim"/>
                     </div>
 
+                    <div class="item-image animated" data-ani-name="rotateIn" data-nai-duration="1s" data-ani-delay="0.5s">
+                        <img class="item-image-splite" alt="" src="../images/love19.jpg?imageslim"/>
+                        <img class="item-image-splite" alt="" src="../images/love22.jpg?imageslim"/>
+                    </div>
 
                 </div>
 
@@ -140,7 +148,11 @@
 
 
                     <div class="item-image animated" data-ani-name="fadeInDownBig" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love11.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love21.jpg?imageslim"/>
+                    </div>
+
+                    <div class="item-image animated" data-ani-name="rotateInDownLeft" data-ani-duration="1s" data-ani-delay="0.5s">
+                        <img alt="" src="../images/love20.jpg?imageslim"/>
                     </div>
 
 
@@ -162,7 +174,11 @@
                     </div>
 
                     <div class="item-image animated" data-ani-name="fadeInRight" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img alt="我们结婚啦!" src="../images/love12.jpg"/>
+                        <img alt="我们结婚啦!" src="../images/love12.jpg?imageslim"/>
+                    </div>
+
+                    <div class="item-image animated" data-ani-name="rotateInDownRight" data-ani-duration="1.5s" data-ani-delay="0.5s">
+                        <img alt="" src="../images/love18.jpg?imageslim"/>
                     </div>
 
 
@@ -197,23 +213,23 @@
 
                 <div class="swiper-slide slide-9 slide">
                     <div class="item-image animated" data-ani-name="fadeInUp" data-ani-duration="1s" data-ani-delay="0.3s">
-                      <img alt="我们结婚啦!" src="../images/love15.jpg"/>
+                      <img alt="我们结婚啦!" src="../images/love15.jpg?imageslim"/>
                     </div>
 
-                    <div class="item-image animated" data-ani-name="fadeInUp" data-ani-duration="1s" data-ani-delay="0.3s">
-                        <img class="item-image-splite"  alt="" src="../images/love12.jpg"/>
-                        <img class="item-image-splite" alt="" src="../images/love11.jpg"/>
+                    <div class="item-image animated" data-ani-name="fadeInUp" data-ani-duration="1s" data-ani-delay="0.8s">
+                        <img class="item-image-splite"  alt="" src="../images/love12.jpg?imageslim"/>
+                        <img class="item-image-splite" alt="" src="../images/love11.jpg?imageslim"/>
                     </div>
 
-                    <div class="item-image animated" data-ani-name="fadeInUp" data-ani-duration="1s" data-ani-delay="0.3s">
-                      <img class="item-image-below" alt="我们结婚啦!" src="../images/love13.jpg"/>
+                    <div class="item-image animated" data-ani-name="fadeInUp" data-ani-duration="1s" data-ani-delay="1s">
+                      <img class="item-image-below" alt="我们结婚啦!" src="../images/love13.jpg?imageslim"/>
                     </div>
 
                </div>
 
                <div class="swiper-slide slide-10 slide">
                    <div class="item-text">
-                       <span id="ityped"></span>
+                       <span id="ityped" class="type-text"></span>
                    </div>
 
                </div>
@@ -223,16 +239,16 @@
                    <div class="map-title">
                     <h2>详细地址:</h2>
                     <p>沅江市黄茅洲镇牛角岔村七组</p>
-                    <p class="map-title-time">
-                        正月初四
-                    </p>
+                    <p class="map-title-time">正月初四</p>
                     <p class="map-suggestion">详情见以下地图，可定位，可搜索路线。</p>
                    </div>
 
                    <div id="baiduMap"  class="map-detail"></div>
 
                </div>
+
         </div>
+
 
         <button class="up-arrow">
             <i class="icon-angle-double-up"></i>
@@ -242,10 +258,9 @@
             <i class="icon-note"></i>
         </button>
 
-        <audio loop autoplay>
+        <audio loop iautoplay>
             <source src="audios/background-new.mp3" type="audio/mpeg">
-        </audio><!-- <!--  --><!--  --> -->
-
+        </audio>
 
         <script src="https://api.map.baidu.com/api?v=2.0&ak=faRYW3NArRGT13uLx9Ht42eSOCITGmOK&s=1" type="text/javascript"></script> 
 
@@ -253,8 +268,7 @@
 
 
         <!-- Don't delete this. It's needed for development workflow. -->
-        <script src="javascripts/bundle-f1a411029f.min.js"></script>
-        <script src="javascripts/bundle.js"></script>
+        <script src="javascripts/bundle-6fca0e6f93.min.js"></script>
 
     </body>
 
